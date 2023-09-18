@@ -12,7 +12,6 @@ import pjsonn from "../package.json";
 class App extends React.Component {
   state = {
     formState: {
-      salarioNominal: 0,
       tieneHijos: false,
       tieneConyuge: false,
       factorDeduccionPersonasACargo: 1,
