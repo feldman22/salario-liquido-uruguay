@@ -151,6 +151,7 @@ export const calcularIPRF = (
  * @param {boolean} adicionalFondoSolidaridad - True si corresponde aportar adicional al Fondo de Solidaridad.
  * @param {number} aportesCJPPU - Aportes a la Caja de Profesionales Universitarios.
  * @param {number} otrasDeducciones - Otras deducciones.
+ * @param {number} otrasDeducciones - Otras deducciones.
  *
  */
 const calcularImpuestos = (
