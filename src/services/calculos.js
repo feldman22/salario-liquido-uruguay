@@ -45,7 +45,7 @@ export const calcularAportesBPS = (salarioNominal, tieneHijos, tieneConyuge) => 
   let valoresFonasa = null;
   if (salarioEnBPC > 2.5) valoresFonasa = APORTES_FONASA_DESDE25BPC;
   else valoresFonasa = APORTES_FONASA_HASTA25BPC;
-
+  const calculusBehaviour = 'Different'
   // Calcular porcentaje fonasa
   let porcentajeFonasa = valoresFonasa.base;
   if (tieneHijos) porcentajeFonasa += valoresFonasa.hijos;
