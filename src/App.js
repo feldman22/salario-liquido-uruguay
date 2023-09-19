@@ -35,6 +35,7 @@ class App extends React.Component {
       aportesFondoSolidaridad: 0,
       adicionalFondoSolidaridad: false,
       aportesCJPPU: 0,
+      a: 8
     },
   };
 
