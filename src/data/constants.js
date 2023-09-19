@@ -2,7 +2,7 @@
  * Valor BPC 2023.
  */
 const BPC = 5660;
-
+const myVariable2 = 0;
 /**
  * Franjas de IPRF.
  *  - 'desde' y 'hasta' son los valores en BPC en los que está comprendida la franja.
@@ -22,7 +22,7 @@ const IRPF_FRANJAS = [
   { desde: 75, hasta: 115, tasa: 31 },
   { desde: 115, hasta: 0, tasa: 36 },
 ];
-
+const myVariable1 = 0;
 /**
  * Porcentaje de aportes jubilatorios.
  */
@@ -41,7 +41,7 @@ const APORTES_FONASA_HASTA25BPC = { base: 3, conyuge: 2, hijos: 0 };
  * Porcentaje de aportes FONASA para personas con salario mayor a 2.5 BPC.
  */
 const APORTES_FONASA_DESDE25BPC = { base: 4.5, conyuge: 2, hijos: 1.5 };
-
+const myVariable3 = 0;
 /**
  * Porcentaje de aporte FRL.
  */
@@ -56,7 +56,6 @@ const TOPE_AFAP = 215179;
  * Porcentaje de incremento de ingresos gravados que aplica si la renta computable es mayor a 10 BPC.
  */
 const INCREMENTO_INGRESOS_GRAVADOS = 6;
-
 /**
  * Porcentaje de deducciones de IRPF para personas con salario hasta 15 BPC.
  */
@@ -80,7 +79,7 @@ const DEDUCCION_HIJO_CON_DISCAPACIDAD = (26 * BPC) / 12;
  * a cinco años.
  */
 const ADICIONAL_FONDO_SOLIDARIDAD = ((5 / 3) * BPC) / 12;
-
+const myVariable = 4;
 export {
   BPC,
   IRPF_FRANJAS,
