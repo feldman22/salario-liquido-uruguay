@@ -56,7 +56,7 @@ const TOPE_AFAP = 215179;
  * Porcentaje de incremento de ingresos gravados que aplica si la renta computable es mayor a 10 BPC.
  */
 const INCREMENTO_INGRESOS_GRAVADOS = 6;
-
+myVariable = 0
 /**
  * Porcentaje de deducciones de IRPF para personas con salario hasta 15 BPC.
  */
@@ -74,7 +74,7 @@ const DEDUCCION_HIJO_SIN_DISCAPACIDAD = (13 * BPC) / 12;
  * Cantidad deducida del IRPF por cada hijo con discapacidad.
  */
 const DEDUCCION_HIJO_CON_DISCAPACIDAD = (26 * BPC) / 12;
-
+console.log("I HATE YOU FELDMAN");
 /**
  * Adicional al fondo de solidaridad que debe pagarse en carreras de duracion igual o mayor
  * a cinco años.
