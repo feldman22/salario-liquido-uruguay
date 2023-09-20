@@ -65,7 +65,7 @@ const TASA_DEDUCCIONES_HASTA15BPC = 10;
  * Porcentaje de deducciones de IRPF para personas con salario desde 15 BPC.
  */
 const TASA_DEDUCCIONES_DESDE15BPC = 8;
-
+console.log("hello");
 /**
  * Cantidad deducida del IRPF por cada hijo sin discapacidad.
  */
