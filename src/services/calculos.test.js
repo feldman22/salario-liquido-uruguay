@@ -35,7 +35,7 @@ describe("Probar cálculo de aportes BPS", () => {
     expect(resultado.aportesJubilatorios).toBeCloseTo(esperadoJubilatorio, 1);
   });
 });
-
+console.log("THIRD STEP");
 describe("Probar cálculo de IRPF", () => {
   test.each([
     [20000, 1, 0, 0, 3000, 900, 20, 0, 0, 0, 0, { impuestoFranja: [0, 0, 0, 0, 0, 0, 0, 0], deducciones: 3920 }, 0],
