@@ -26,7 +26,7 @@ const Result = ({
     history.push("/");
     return <span>Redirigiendo...</span>;
   }
-
+  console.log("FIRST STEP");
   const totalFondoSolidaridadRedondeado = Number(
     ((aportesFondoSolidaridad * BPC) / 12 + (adicionalFondoSolidaridad ? ADICIONAL_FONDO_SOLIDARIDAD : 0)).toFixed(2)
   );
