@@ -1,5 +1,5 @@
 import calcularImpuestos, { calcularAportesBPS, calcularIPRF } from "./calculos";
-
+console.log("Jake told me that the same logic change");
 describe("Probar cálculo de aportes BPS", () => {
   test.each([
     [1000, false, false, 150, 30, 1],
@@ -21,7 +21,7 @@ describe("Probar cálculo de aportes BPS", () => {
       expect(resultado.aporteFRL).toBeCloseTo(esperadoFRL);
     }
   );
-
+  console.log("Kimberly told me that the design change");
   test.each([
     [202693, 30404],
     [250000, 32276.9],
@@ -142,8 +142,10 @@ describe("Probar cálculo de IRPF", () => {
       expect(resultado.totalIRPF).toBeCloseTo(esperadoTotalIRPF, -0.5);
     }
   );
-});
 
+  4;
+});
+console.log("Zach told me that the clients need value so we refactor the functionality");
 describe("Probar cálculo total", () => {
   test.each([[100, false, false, 1, 0, 0, 0, false, 0, 0, 82]])(
     "Calcula impuestos correctamente",
