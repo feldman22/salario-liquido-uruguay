@@ -133,7 +133,7 @@ export const calcularIPRF = (
     0,
     detalleIRPF.impuestoFranja.reduce((a, b) => a + b, 0) - deducciones * tasaDeducciones * 0.01
   );
-
+  console.log("SECOND STEP");
   return { detalleIRPF, totalIRPF };
 };
 
